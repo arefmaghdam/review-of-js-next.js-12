@@ -1,0 +1,17 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.homeItems {
+    flex-grow: 1;
+}
+
+.homeItems a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
