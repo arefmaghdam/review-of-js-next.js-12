@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import Provider from "./provider";
+import NextProvider from "./next-provider";
+import JSProvider from "./js-provider";
 
 const Home = () => {
   return (
@@ -8,10 +9,11 @@ const Home = () => {
       <div className={styles.homeContainer}>
         <div className={styles.homeItems}>
           <h1>Next.JS 12</h1>
-          <Provider />
+          <NextProvider />
         </div>
         <div className={styles.homeItems}>
           <h1>Javascript</h1>
+          <JSProvider />
         </div>
       </div>
     </>

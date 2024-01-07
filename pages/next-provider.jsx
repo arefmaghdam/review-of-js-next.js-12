@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const Provider = () => {
+const NextProvider = () => {
   return (
     <div>
       <Link href="/nextjs/adding-404-page">adding-404-page</Link>
@@ -39,4 +39,4 @@ const Provider = () => {
   );
 };
 
-export default Provider;
+export default NextProvider;

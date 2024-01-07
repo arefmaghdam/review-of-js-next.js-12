@@ -1,11 +1,20 @@
 .homeContainer {
     display: flex;
     flex-direction: row;
+    text-align: center;
     padding: 1rem;
 }
 
 .homeItems {
     flex-grow: 1;
+}
+
+.homeItems:nth-child(1) {
+    border-right: 1px solid grey;
+}
+
+.homeItems:nth-child(2) {
+    padding-left: 25px;
 }
 
 .homeItems a {
