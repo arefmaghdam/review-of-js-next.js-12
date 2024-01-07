@@ -24,3 +24,19 @@
     flex-direction: column;
     margin: 5px 0;
 }
+
+.subPages {
+    padding: 1rem;
+}
+
+.codeConainer {
+    background-color: rgb(0, 0, 0);
+    color:darkgray ;
+    width: 100%;
+}
+
+.imageStyles {
+    width: 90%;
+    height: auto;
+    margin-left: 5vw;
+}
