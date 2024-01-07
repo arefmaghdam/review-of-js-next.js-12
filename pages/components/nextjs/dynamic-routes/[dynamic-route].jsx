@@ -2,8 +2,14 @@ import React from "react";
 import styles from "../../../../styles/Home.module.css";
 import CodePreview from "../../code-preview";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const StaticRouting = () => {
+  const router = useRouter();
+
+  console.log(router.pathname);
+  console.log(router.query);
+
   return (
     <div className={styles.subPages}>
       <Link href="/">back</Link>
