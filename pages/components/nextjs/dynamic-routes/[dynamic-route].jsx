@@ -24,6 +24,11 @@ const StaticRouting = () => {
        import Link from "next/link";
 
        const StaticRouting = () => {
+       const router = useRouter();
+
+       console.log(router.pathname);
+       console.log(router.query);
+       
          return (
            <div className={styles.subPages}>
              <Link href="/">back</Link>
