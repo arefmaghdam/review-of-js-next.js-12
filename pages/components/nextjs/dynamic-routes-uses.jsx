@@ -3,24 +3,60 @@ import styles from "../../../styles/Home.module.css";
 import CodePreview from "../../components/code-preview";
 import Link from "next/link";
 
-const DynamicRouting = () => {
+const DynamicRoutesUses = () => {
+  const users = [
+    { id: 1, username: "Aref" },
+    { id: 2, username: "Taha" },
+  ];
   return (
     <div className={styles.subPages}>
+      <ul>
+        {users.map((item) => (
+          <li key={item.id}>
+            <Link href={`/components/nextjs/${item.id}`}>{item.username}</Link>
+          </li>
+        ))}
+      </ul>
       <Link href="/">back</Link>
       <CodePreview
-        imgURL="../../../images/routing.png"
+        imgURL="../../../images/dynamic-routes-uses.png"
         content={`
-    // next.js 12 routes are based on folder structure and pages folder
-    // pages/_app.jsx => identifying the active page
-    // pages/index.jsx => "/"
-    // pages/about.jsx => "/about" => about is a static value
-    // pages/components/index.jsx => "/components/" => components is a static value
-    // pages/components/products.jsx => "/components/products/" => products is a static value
-    // all of the above routes that we were used, are static routes same as below picture:
+    this page code:
+
+    import React from "react";
+    import styles from "../../../styles/Home.module.css";
+    import CodePreview from "../../components/code-preview";
+    import Link from "next/link";
+
+    const DynamicRoutesUses = () => {
+      const users = [
+        { id: 1, username: "Aref" },
+        { id: 2, username: "Taha" },
+      ];
+      return (
+        <div className={styles.subPages}>
+          <ul>
+            {users.map((item) => (
+              <li key={item.id}>
+                <Link href={'/components/nextjs/' + {item.id}}>{item.username}</Link>
+              </li>
+            ))}
+          </ul>
+          <Link href="/">back</Link>
+        </div>
+      );
+    };
+
+    export default DynamicRoutesUses;
+
+        
+    // how to navigate between dynamic routes:
+    // we use [...get-routes.value].jsx for dynamic navigating
+    // and we use an array for mapping and creating routes
       `}
       />
     </div>
   );
 };
 
-export default DynamicRouting;
+export default DynamicRoutesUses;
