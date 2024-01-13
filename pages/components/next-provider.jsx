@@ -22,7 +22,7 @@ const NextProvider = () => {
       <Link href="/components/nextjs/page-displaying-methods">
         page-displaying-methods
       </Link>
-      <Link href="/components/nextjs/adding-404-page">adding-404-page</Link>
+      <Link href="/hghgjh">adding-404-page</Link>
       <Link href="/components/nextjs/pre-rendering">pre-rendering</Link>
       <Link href="/components/nextjs/getStaticProps-method">
         getStaticProps-method
