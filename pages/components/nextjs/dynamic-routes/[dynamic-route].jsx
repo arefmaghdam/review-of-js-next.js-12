@@ -37,7 +37,8 @@ const StaticRouting = () => {
        };
        
        export default StaticRouting;
-
+    
+    // note that we cant use two dynamic route in same root, this means we cant use [] in one folder
     // there is a standard for this task:
     // we use [] and write file name into []
     // for example:
