@@ -15,7 +15,6 @@ const ServerSideCodeRunning = ({ products }) => {
       </ul> */}
       <Link href="/">back</Link>
       <CodePreview
-        imgURL="../../../../images/get-static-props.png"
         content={`
     // this page codes:
 
