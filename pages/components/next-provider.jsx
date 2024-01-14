@@ -46,9 +46,6 @@ const NextProvider = () => {
       <Link href="/components/nextjs/context-parameter-SSR">
         context-parameter-SSR
       </Link>
-      <Link href="/components/nextjs/implementing-dynamic-pages">
-        implementing-dynamic-pages
-      </Link>
     </div>
   );
 };
