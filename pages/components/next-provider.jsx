@@ -49,6 +49,9 @@ const NextProvider = () => {
       <Link href="/components/nextjs/client-side-data-fetching">
         client side data fetching
       </Link>
+      <Link href="/components/nextjs/server-side-data-fetching">
+        server side data fetching
+      </Link>
     </div>
   );
 };
