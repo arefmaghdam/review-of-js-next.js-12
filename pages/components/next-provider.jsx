@@ -46,6 +46,9 @@ const NextProvider = () => {
       <Link href="/components/nextjs/context-parameter-SSR">
         context-parameter-SSR
       </Link>
+      <Link href="/components/nextjs/client-side-data-fetching">
+        client side data fetching
+      </Link>
     </div>
   );
 };
