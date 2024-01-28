@@ -61,6 +61,7 @@ const NextProvider = () => {
         sending request to API
       </Link>
       <Link href="/components/nextjs/save-data-to-file">save data to file</Link>
+      <Link href="/components/nextjs/using-api-to-get-data">using api to get data</Link>
     </div>
   );
 };
