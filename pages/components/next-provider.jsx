@@ -55,6 +55,12 @@ const NextProvider = () => {
       <Link href="/components/nextjs/writing-api-routes">
         writing api routes
       </Link>
+      <Link href="/components/nextjs/frontend-route">frontend route</Link>
+      <Link href="/components/nextjs/parsing-request">parsing request</Link>
+      <Link href="/components/nextjs/sending-request-to-API">
+        sending request to API
+      </Link>
+      <Link href="/components/nextjs/save-data-to-file">save data to file</Link>
     </div>
   );
 };
