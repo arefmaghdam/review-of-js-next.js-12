@@ -63,6 +63,7 @@ const NextProvider = () => {
       <Link href="/components/nextjs/save-data-to-file">save data to file</Link>
       <Link href="/components/nextjs/using-api-to-get-data">using api to get data</Link>
       <Link href="/components/nextjs/using-api-routes-for-pre-rendering">using api routes for pre-rendering</Link>
+      <Link href="/components/nextjs/dynamic-api-routes">dynamic api routes</Link>
     </div>
   );
 };
