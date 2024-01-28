@@ -70,9 +70,8 @@ const NextProvider = () => {
       <Link href="/components/nextjs/dynamic-api-routes">
         dynamic api routes
       </Link>
-      <Link href="/components/nextjs/install-mongodb">
-        install-mongodb
-      </Link>
+      <Link href="/components/nextjs/install-mongodb">install-mongodb</Link>
+      <Link href="/components/nextjs/insert-to-bd">insert to db</Link>
     </div>
   );
 };
