@@ -55,12 +55,14 @@ const NextProvider = () => {
       <Link href="/components/nextjs/writing-api-routes">
         writing api routes
       </Link>
-      <Link href="/components/nextjs/frontend-route">frontend route</Link>
+      <Link href="/components/nextjs/frontend-form">frontend form</Link>
       <Link href="/components/nextjs/parsing-request">parsing request</Link>
-      <Link href="/components/nextjs/sending-request-to-API">
+      <Link href="/components/nextjs/sending-request-to-api">
         sending request to API
       </Link>
-      <Link href="/components/nextjs/save-data-to-file">save data to file</Link>
+      <Link href="/components/nextjs/saving-data-to-file">
+        saving data to file
+      </Link>
       <Link href="/components/nextjs/using-api-to-get-data">
         using api to get data
       </Link>
@@ -70,9 +72,9 @@ const NextProvider = () => {
       <Link href="/components/nextjs/dynamic-api-routes">
         dynamic api routes
       </Link>
-      <Link href="/components/nextjs/install-mongodb">install-mongodb</Link>
+      <Link href="/components/nextjs/install-mongobs">install-mongodb</Link>
       <Link href="/components/nextjs/insert-to-db">insert to db</Link>
-      <Link href="/components/nextjs/fetch data-from-db">
+      <Link href="/components/nextjs/fetch-data-from-db">
         fetch data from db
       </Link>
     </div>

@@ -2,10 +2,10 @@ import React from "react";
 import styles from "../../../styles/Home.module.css";
 import CodePreview from "../code-preview";
 import Link from "next/link";
-import fs from "fs/promises";
-import path from "path";
+// import fs from "fs/promises";
+// import path from "path";
 
-const ServerSideCodeRunning = ({ products }) => {
+const ServerSideCodeRunning = () => {
   return (
     <div className={styles.subPages}>
       {/* <ul>
@@ -63,15 +63,15 @@ const ServerSideCodeRunning = ({ products }) => {
   );
 };
 
-export const getStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "data", "products.json");
-  const jsonData = await fs.readFile(filePath);
-  const data = JSON.parse(jsonData);
-  return {
-    props: {
-      products: data.products,
-    },
-  };
-};
+// export const getStaticProps = async () => {
+//   const filePath = path.join(process.cwd(), "data", "products.json");
+//   const jsonData = await fs.readFile(filePath);
+//   const data = JSON.parse(jsonData);
+//   return {
+//     props: {
+//       products: data.products,
+//     },
+//   };
+// };
 
 export default ServerSideCodeRunning;
