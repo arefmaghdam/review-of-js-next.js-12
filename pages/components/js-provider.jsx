@@ -24,7 +24,6 @@ const JSProvider = () => {
         javascript-browser
       </Link>
       <Link href="/components/javascript/user-datas">user-datas</Link>
-      <Link href="/components/javascript/data-displaying">data-displaying</Link>
     </div>
   );
 };
